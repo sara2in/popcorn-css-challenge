@@ -3,3 +3,94 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+
+body {
+    margin: 0%;
+    background-color: #D4A76A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #FFDBAA;
+    border-bottom: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+button {
+    color: white;
+    height: 50px;
+    width: 100%;
+    border-style: none;
+    background-color: #805215;
+
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+
+    font-weight:700;
+    font-size: medium;
+}
+
+h3 {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 50px;
+}
+nav h1 {
+    font-size: xx-large;
+    color: #553100;
+    margin-right: 150px;
+}
+
+nav button {
+    margin-left: 25px;
+    width: 150px;
+}
+
+.offers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offers div {   
+    max-width: 300px;
+    padding: 10px;
+    
+    background-color: white;
+    box-shadow: 0 0 10px;
+}
+
+.offers button {
+    max-width: 200px;
+}
+
+.aboutUs div {
+    max-width: 100%;
+    padding: 10px;
+  
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: white;
+    box-shadow: 0 0 10px;
+}
